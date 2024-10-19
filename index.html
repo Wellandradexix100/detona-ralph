@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Settings -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Detona ralph</title>
+  </head>
+
+  <main class="container">
+    <div class="menu">
+      <div class="menu-time">
+        <h2 class="score-text">Time left</h2>
+        <h2 id="time-left">0</h2>
+      </div>
+      <div class="menu-score">
+        <h2 class="score-text">Your Score</h2>
+        <h2 id="score">0</h2>
+      </div>
+      <div class="menu-lives">
+        <img src="assets/player.png" alt="player photo" />
+        <h2>x3</h2>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-row">
+        <div class="square enemy" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+      </div>
+
+      <div class="panel-row">
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+      </div>
+
+      <div class="panel-row">
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+      </div>
+    </div>
+  </main>
+  <body>
+    <script defer src="scripts/engine.js"></script>
+  </body>
+</html>
